@@ -1,0 +1,141 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Dish 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Dish ---
+[INFO] Deleting /Users/cotletkaman/IdeaProjects/Dish/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Dish ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Dish ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 6 source files to /Users/cotletkaman/IdeaProjects/Dish/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Dish ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ Dish ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 3 source files to /Users/cotletkaman/IdeaProjects/Dish/target/test-classes
+[WARNING] /Users/cotletkaman/IdeaProjects/Dish/src/test/java/DAO/DaoOperationsTest.java: /Users/cotletkaman/IdeaProjects/Dish/src/test/java/DAO/DaoOperationsTest.java uses unchecked or unsafe operations.
+[WARNING] /Users/cotletkaman/IdeaProjects/Dish/src/test/java/DAO/DaoOperationsTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Dish ---
+[INFO] Surefire report directory: /Users/cotletkaman/IdeaProjects/Dish/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running DAO.DaoOperationsTest
+DOL Loading time178
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.521 sec <<< FAILURE!
+testCreateObject(DAO.DaoOperationsTest)  Time elapsed: 0.139 sec  <<< ERROR!
+javax.ejb.EJBException
+	at com.sun.ejb.containers.BaseContainer.processSystemException(BaseContainer.java:4949)
+	at com.sun.ejb.containers.BaseContainer.completeNewTx(BaseContainer.java:4847)
+	at com.sun.ejb.containers.BaseContainer.postInvokeTx(BaseContainer.java:4635)
+	at com.sun.ejb.containers.BaseContainer.postInvoke(BaseContainer.java:1871)
+	at com.sun.ejb.containers.BaseContainer.postInvoke(BaseContainer.java:1822)
+	at com.sun.ejb.containers.EJBLocalObjectInvocationHandler.invoke(EJBLocalObjectInvocationHandler.java:198)
+	at com.sun.ejb.containers.EJBLocalObjectInvocationHandlerDelegate.invoke(EJBLocalObjectInvocationHandlerDelegate.java:84)
+	at com.sun.proxy.$Proxy88.create(Unknown Source)
+	at DAO.DaoOperationsTest.testCreateObject(DaoOperationsTest.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.lang.IllegalStateException: Unable to retrieve EntityManagerFactory for unitName PersistJPA
+	at com.sun.enterprise.container.common.impl.EntityManagerWrapper.init(EntityManagerWrapper.java:122)
+	at com.sun.enterprise.container.common.impl.EntityManagerWrapper.doTxRequiredCheck(EntityManagerWrapper.java:142)
+	at com.sun.enterprise.container.common.impl.EntityManagerWrapper.doTransactionScopedTxCheck(EntityManagerWrapper.java:135)
+	at com.sun.enterprise.container.common.impl.EntityManagerWrapper.persist(EntityManagerWrapper.java:253)
+	at server.DAOoperations.AppDishOperaion.AppDishDaoImpl.create(server.DAOoperations.AppDishOperaion.AppDishDaoImpl.java:19)
+	at server.DAOoperations.AppDishOperaion.AppDishDaoImpl.create(server.DAOoperations.AppDishOperaion.AppDishDaoImpl.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.runMethod(EJBSecurityManager.java:1046)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.invoke(EJBSecurityManager.java:1118)
+	at com.sun.ejb.containers.BaseContainer.invokeBeanMethod(BaseContainer.java:5122)
+	at com.sun.ejb.EjbInvocation.invokeBeanMethod(EjbInvocation.java:610)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:779)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:562)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.doAround(SystemInterceptorProxy.java:157)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.aroundInvoke(SystemInterceptorProxy.java:139)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:840)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:779)
+	at com.sun.ejb.containers.interceptors.InterceptorManager.intercept(InterceptorManager.java:349)
+	at com.sun.ejb.containers.BaseContainer.__intercept(BaseContainer.java:5094)
+	at com.sun.ejb.containers.BaseContainer.intercept(BaseContainer.java:5082)
+	at com.sun.ejb.containers.EJBLocalObjectInvocationHandler.invoke(EJBLocalObjectInvocationHandler.java:190)
+	... 35 more
+
+Running JPA.DaoObjectTest
+[EL Info]: 2016-02-03 23:07:31.885--ServerSession(51907310)--EclipseLink, version: Eclipse Persistence Services - 2.5.0.v20130425-368d603
+[EL Info]: connection: 2016-02-03 23:07:32.467--ServerSession(51907310)--file:/Users/cotletkaman/IdeaProjects/Dish/target/test-classes/_TestPersistJPA login successful
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.745 sec
+
+Results :
+
+Tests in error: 
+  testCreateObject(DAO.DaoOperationsTest)
+
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 12.456 s
+[INFO] Finished at: 2016-02-03T23:07:33+04:00
+[INFO] Final Memory: 22M/146M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project Dish: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /Users/cotletkaman/IdeaProjects/Dish/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

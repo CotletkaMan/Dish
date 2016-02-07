@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.glassfish.extras:glassfish-embedded-all:3.0-b69">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/extras/glassfish-embedded-all/3.0-b69/glassfish-embedded-all-3.0-b69.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/extras/glassfish-embedded-all/3.0-b69/glassfish-embedded-all-3.0-b69-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/extras/glassfish-embedded-all/3.0-b69/glassfish-embedded-all-3.0-b69-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
