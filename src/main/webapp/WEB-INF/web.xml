@@ -4,12 +4,17 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
          http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
-        <servlet>
-            <servlet-name>server.rest.JerseyConteiner</servlet-name>
-        </servlet>
+    <servlet>
+        <servlet-name>TestApp</servlet-name>
+        <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
+        <init-param>
+            <param-name>javax.ws.rs.Application</param-name>
+            <param-value>server.rest.JerseyConteiner</param-value>
+        </init-param>
+    </servlet>
 
-        <servlet-mapping>
-            <servlet-name>server.rest.JerseyConteiner</servlet-name>
-            <url-pattern>/myresources/*</url-pattern>
-        </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TestApp</servlet-name>
+        <url-pattern>/rest/*</url-pattern>
+    </servlet-mapping>
 </web-app>
