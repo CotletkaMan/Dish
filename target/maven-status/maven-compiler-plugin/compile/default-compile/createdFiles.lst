@@ -1,6 +1,4 @@
-server/rest/DishResource.class
 server/DAOoperations/AppDishOperaion/IngredientFilter.class
-server/rest/JerseyConteiner.class
 shared/entity/Dish.class
 shared/entity/AppDish.class
 server/DAOoperations/AppDishOperaion/TypeFilter.class
@@ -12,7 +10,7 @@ server/DAOoperations/AppDishOperaion/ExtendAppDishOperation.class
 server/DAOoperations/AppDishOperaion/NameFilter.class
 shared/entity/Statistics.class
 server/DAOoperations/AppDishOperaion/AppDishCRUDImpl.class
-server/rest/DishesResource.class
 server/DAOoperations/CRUDinterface.class
 server/DAOoperations/AppDishOperaion/AppDishState.class
 server/DAOoperations/BasicCollectionOperations.class
+shared/entity/ShortDish.class

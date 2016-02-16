@@ -3,7 +3,7 @@
 /Users/cotletkaman/IdeaProjects/Dish/src/main/java/server/DAOoperations/AppDishOperaion/ExtendAppDishOperation.java
 /Users/cotletkaman/IdeaProjects/Dish/src/main/java/shared/entity/Statistics.java
 /Users/cotletkaman/IdeaProjects/Dish/src/main/java/shared/entity/AppDish.java
-/Users/cotletkaman/IdeaProjects/Dish/src/main/java/server/rest/DishesResource.java
+/Users/cotletkaman/IdeaProjects/Dish/src/main/java/shared/entity/ShortDish.java
 /Users/cotletkaman/IdeaProjects/Dish/src/main/java/server/DAOoperations/AppDishOperaion/Filter.java
 /Users/cotletkaman/IdeaProjects/Dish/src/main/java/server/DAOoperations/BasicCollectionOperations.java
 /Users/cotletkaman/IdeaProjects/Dish/src/main/java/server/DAOoperations/CRUDinterface.java
@@ -12,7 +12,5 @@
 /Users/cotletkaman/IdeaProjects/Dish/src/main/java/shared/entity/TypeDishes.java
 /Users/cotletkaman/IdeaProjects/Dish/src/main/java/server/DAOoperations/AppDishOperaion/AppDishCRUDImpl.java
 /Users/cotletkaman/IdeaProjects/Dish/src/main/java/server/DAOoperations/AppDishOperaion/TypeFilter.java
-/Users/cotletkaman/IdeaProjects/Dish/src/main/java/server/rest/JerseyConteiner.java
-/Users/cotletkaman/IdeaProjects/Dish/src/main/java/server/rest/DishResource.java
 /Users/cotletkaman/IdeaProjects/Dish/src/main/java/server/DAOoperations/AppDishOperaion/AppDishState.java
 /Users/cotletkaman/IdeaProjects/Dish/src/main/java/server/DAOoperations/AppDishOperaion/AppDishCollectionImpl.java

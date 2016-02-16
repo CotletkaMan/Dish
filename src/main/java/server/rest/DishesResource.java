@@ -3,7 +3,7 @@ package server.rest;
 import server.DAOoperations.AppDishOperaion.AppDishCollectionImpl;
 import server.DAOoperations.AppDishOperaion.ExtendAppDishOperation;
 import server.DAOoperations.BasicCollectionOperations;
-import shared.entity.AppDish;
+import shared.entity.ShortDish;
 import shared.entity.TypeDishes;
 
 import javax.ejb.EJB;
@@ -26,14 +26,14 @@ public class DishesResource {
     private AppDishCollectionImpl appDishOperations;
 
     @GET
-    public List<AppDish> getAllDishes(){
-        BasicCollectionOperations<AppDish> basicAppDish = appDishOperations;
+    public List<ShortDish> getAllDishes(){
+        BasicCollectionOperations<ShortDish> basicAppDish = appDishOperations;
         return basicAppDish.findAll();
     }
 
     @GET
     @Consumes("text/plain")
-    public List<AppDish> getTypeDishes(String type){
+    public List<ShortDish> getTypeDishes(String type){
         TypeDishes dishes = TypeDishes.valueOf(type);
         ExtendAppDishOperation extendAppDishOperation = appDishOperations;
         return extendAppDishOperation.getType(dishes);
@@ -41,7 +41,7 @@ public class DishesResource {
 
     @POST
     @Consumes("application/json")
-    public List<AppDish> getFilterDishes(HashMap<String , Object> map){
+    public List<ShortDish> getFilterDishes(HashMap<String , Object> map){
         return appDishOperations.filter(map);
     }
 

@@ -6,7 +6,6 @@ import javax.persistence.*;
  * Created by cotletkaman on 02.02.16.
  */
 @Entity
-@Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
 public class AppDish extends Statistics{
 
 
@@ -27,7 +26,7 @@ public class AppDish extends Statistics{
     }
 
     @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "dish_fk" , nullable = false)
+    @JoinColumn(nullable = false)
     public Dish getDish(){
         return dish;
     }

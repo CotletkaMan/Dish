@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
     <persistence-unit name="PersistJPA" transaction-type="JTA">
-        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
         <jta-data-source>jdbc/sqlConnect</jta-data-source>
         <class>shared.entity.AppDish</class>
         <class>shared.entity.Dish</class>
         <class>shared.entity.Ingredients</class>
         <class>shared.entity.Statistics</class>
         <properties>
-            <property name="eclipselink.ddl-generation" value="drop-and-create-tables"/>
+            <property name="toplink.ddl-generation" value="drop-and-create-tables"/>
         </properties>
     </persistence-unit>
 </persistence>

@@ -1,15 +1,18 @@
 package server.rest;
 
-import org.glassfish.jersey.server.ResourceConfig;
 
-import javax.ws.rs.ApplicationPath;
+import javax.ws.rs.core.Application;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * Created by cotletkaman on 06.02.16.
  */
-@ApplicationPath("Main")
-public class JerseyConteiner extends ResourceConfig {
-    public JerseyConteiner(){
-        packages("server.rest.DishesResources;server.rest.DishResource");
+public class JerseyConteiner extends Application {
+    public Set<Class<?>> getClasses(){
+        Set<Class<?>> set = new HashSet<Class<?>>();
+        set.add(DishesResource.class);
+        set.add(DishResource.class);
+        return set;
     }
 }

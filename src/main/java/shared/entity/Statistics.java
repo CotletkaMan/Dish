@@ -7,6 +7,7 @@ import java.util.Date;
  * Created by cotletkaman on 02.02.16.
  */
 @Entity
+@Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
 public class Statistics {
     private Long id;
     private Date createDate;
