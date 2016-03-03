@@ -1,6 +1,7 @@
 package shared.entity;
 
 import javax.persistence.*;
+import javax.xml.bind.annotation.XmlRootElement;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
@@ -10,6 +11,7 @@ import java.util.Map;
  * Created by cotletkaman on 02.02.16.
  */
 @Entity
+@XmlRootElement
 public class Dish {
 
     private Long id;

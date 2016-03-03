@@ -1,11 +1,13 @@
 package shared.entity;
 
+import javax.xml.bind.annotation.XmlRootElement;
 import java.util.Date;
 import java.util.Map;
 
 /**
  * Created by cotletkaman on 16.02.16.
  */
+@XmlRootElement
 public class ShortDish {
     private String name;
     private byte[] image;

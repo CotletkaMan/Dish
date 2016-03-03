@@ -1,10 +1,7 @@
 package server.rest;
 
-import org.glassfish.jersey.process.internal.RequestScoped;
-import org.glassfish.jersey.server.mvc.Template;
 import org.glassfish.jersey.server.mvc.Viewable;
 import server.DAOoperations.AppDishCRUDImpl;
-import server.DAOoperations.CRUDinterface;
 import server.DAOoperations.ExtendAppDishOperation;
 import shared.entity.AppDish;
 import shared.entity.Dish;
@@ -15,6 +12,7 @@ import javax.annotation.ManagedBean;
 import javax.inject.Inject;
 import javax.ws.rs.*;
 import javax.ws.rs.core.Context;
+import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.UriInfo;
 import javax.xml.bind.JAXBElement;
@@ -56,22 +54,18 @@ public class DishesResources {
         return new Viewable("/index.jsp" , this);
     }
 
-    @PUT
+    @POST
     @Path("/AddNew")
-    @Consumes("text/plain")
-   // public Response putAppDish(JAXBElement<Dish> dishJAXBElement){
-    public String putAppDish(String text){
-
-        System.out.println(text);
-    /*    Dish dish = dishJAXBElement.getValue();
+    @Consumes("application/json")
+    public Response putAppDish(Dish dish){
         AppDish appDish = new AppDish();
         appDish.setDish(dish);
         appDish.setCreateDate(new Date());
         appDish.setCountView(0L);
         appDish.setCountLike(0L);
 
-        appDishCRUD.create(appDish);*/
-        return "DONE!";
+        appDishCRUD.create(appDish);
+        return Response.status(200).build();
     }
 
     @Path("{dishID}")
