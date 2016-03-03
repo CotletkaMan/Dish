@@ -1,5 +1,6 @@
 package server.DAOoperations;
 
+import javax.ejb.Local;
 import java.util.List;
 
 /**

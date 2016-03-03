@@ -1,16 +1,12 @@
 package DAO;
 
 import org.junit.*;
-import support.CreatorTestObjects;
 import server.DAOoperations.CRUDinterface;
 import shared.entity.AppDish;
 
 import javax.ejb.embeddable.EJBContainer;
 import javax.naming.Context;
 import javax.naming.NamingException;
-import java.util.HashMap;
-import java.util.Map;
-import java.io.File;
 
 /**
  * Created by cotletkaman on 03.02.16.
@@ -23,21 +19,19 @@ public class DaoOperationsTest {
 
     @BeforeClass
     public static void setUpClass() throws NamingException{
-        Map properties = new HashMap();
-        properties.put(EJBContainer.MODULES, new File[]{new File("target/classes"), new File("target/test-classes")});
-        container = EJBContainer.createEJBContainer(properties);
+        container = EJBContainer.createEJBContainer();
         context = container.getContext();
     }
 
     @Before
     public void setUp() throws Exception{
-        Object rawObject = context.lookup("java:global/classes/server.DAOoperations.AppDishOperaion.AppDishDaoImpl");
-        dishCRUDinterface = (CRUDinterface<AppDish>)rawObject;
+     //   dishCRUDinterface = (CRUDinterface<AppDish>)context.lookup("java:global/classes/server/DAOoperations/AppDishOperaion/AppDishCRUDImpl");
     }
 
+    @Test
     public void testCreateObject(){
-        AppDish dish = CreatorTestObjects.getAppDish();
-        dishCRUDinterface.create(dish);
+       /* AppDish dish = CreatorTestObjects.getAppDish();
+        dishCRUDinterface.create(dish);*/
     }
 
     @AfterClass

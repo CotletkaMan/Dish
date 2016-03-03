@@ -68,7 +68,7 @@ public class Dish {
 
     @ElementCollection
     @MapKeyEnumerated(value = EnumType.STRING)
-    @MapKeyColumn(name = "Ingredient" , nullable = false)
+    @MapKeyColumn(name = "Ingredient" , nullable = true)
     @Column(name = "Count" , nullable = false)
     public Map<Ingredients , Integer> getIngredients(){
         return ingredients;

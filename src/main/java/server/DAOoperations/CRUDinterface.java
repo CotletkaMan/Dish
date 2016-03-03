@@ -1,4 +1,7 @@
 package server.DAOoperations;
+
+import javax.ejb.Local;
+
 /**
  * Created by cotletkaman on 03.02.16.
  */
