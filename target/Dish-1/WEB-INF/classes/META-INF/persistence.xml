@@ -6,8 +6,8 @@
         <class>shared.entity.Dish</class>
         <class>shared.entity.Ingredients</class>
         <class>shared.entity.Statistics</class>
-        <!--properties>
-            <property name="toplink.ddl-generation" value="create-tables"/>
-        </properties-->
+        <properties>
+            <property name="toplink.ddl-generation" value="drop-and-create-tables"/>
+        </properties>
     </persistence-unit>
 </persistence>

@@ -58,6 +58,7 @@ public class DishesResources {
     @Path("/AddNew")
     @Consumes("application/json")
     public Response putAppDish(Dish dish){
+        System.out.println("IN");
         AppDish appDish = new AppDish();
         appDish.setDish(dish);
         appDish.setCreateDate(new Date());

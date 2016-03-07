@@ -12,7 +12,7 @@
 <br>
 <input style="width: 100px; height: 500px ; margin-left: 2px;" type="text" id="message" name="message">
 <br>
-<input type="button" onclick="callServlet()" value="Calc">
+<input type="button" onclick="callServlet()" value="Add">  <a href="../dishes?type=ALL">lookAll</a>
 
 </body>
 <script>
@@ -22,7 +22,7 @@
         var myData = {"name": input1, "recipe": [input2]};
         var jsonData = JSON.stringify(myData);
         $.ajax({
-            url: "http://localhost:8080/Dish-1/dishes/AddNew",
+            url: "../dishes/AddNew",
             type: "POST",
             contentType: "application/json",
             data: jsonData

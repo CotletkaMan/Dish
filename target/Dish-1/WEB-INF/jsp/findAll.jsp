@@ -20,6 +20,6 @@
     </c:forEach>
 </p>
 <br>
-<a href="AddNew">AddNew</a>
+<a href="dishes/AddNew">AddNew</a>
 </BODY>
 </HTML>
