@@ -7,7 +7,7 @@ import javax.ejb.Local;
  */
 public interface CRUDinterface<T> {
     T create(T object);
-    T delete(T object);
+    T delete(Long object);
     T update(T object);
     T findById(Long object);
 }

@@ -2,124 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9b02cc5-8397-439e-a48a-8ba8a189e04c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/backGr.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/centetImg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/viewDish.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1.war" afterPath="$PROJECT_DIR$/target/Dish-1.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/server/DAOoperations/AppDishCRUDImpl.class" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/server/DAOoperations/AppDishCRUDImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/server/DAOoperations/AppDishCollectionImpl.class" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/server/DAOoperations/AppDishCollectionImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/server/DAOoperations/BasicCollectionOperations.class" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/server/DAOoperations/BasicCollectionOperations.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/server/DAOoperations/CRUDinterface.class" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/server/DAOoperations/CRUDinterface.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/server/DAOoperations/ExtendAppDishOperation.class" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/server/DAOoperations/ExtendAppDishOperation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/server/DAOoperations/Filter.class" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/server/DAOoperations/Filter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/server/DAOoperations/IngredientFilter.class" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/server/DAOoperations/IngredientFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/server/DAOoperations/NameFilter.class" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/server/DAOoperations/NameFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/server/DAOoperations/TypeFilter.class" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/server/DAOoperations/TypeFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/server/rest/CDIbinder.class" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/server/rest/CDIbinder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/server/rest/DishResources.class" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/server/rest/DishResources.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/server/rest/DishesResources.class" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/server/rest/DishesResources.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/server/rest/RestResource.class" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/server/rest/RestResource.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/shared/entity/AppDish.class" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/shared/entity/AppDish.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/shared/entity/Dish.class" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/shared/entity/Dish.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/shared/entity/Ingredients.class" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/shared/entity/Ingredients.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/shared/entity/ShortDish.class" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/shared/entity/ShortDish.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/shared/entity/Statistics.class" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/shared/entity/Statistics.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/shared/entity/TypeDishes.class" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/shared/entity/TypeDishes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/aopalliance-repackaged-2.4.0-b34.jar" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/aopalliance-repackaged-2.4.0-b34.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/commonj.sdo-2.1.1.jar" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/commonj.sdo-2.1.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/eclipselink-2.5.0-RC1.jar" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/eclipselink-2.5.0-RC1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/hk2-api-2.4.0-b34.jar" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/hk2-api-2.4.0-b34.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/hk2-locator-2.4.0-b34.jar" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/hk2-locator-2.4.0-b34.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/hk2-utils-2.4.0-b34.jar" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/hk2-utils-2.4.0-b34.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/jackson-annotations-2.3.2.jar" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/jackson-annotations-2.3.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/jackson-core-2.3.2.jar" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/jackson-core-2.3.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/jackson-databind-2.3.2.jar" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/jackson-databind-2.3.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/jackson-jaxrs-base-2.3.2.jar" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/jackson-jaxrs-base-2.3.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/jackson-jaxrs-json-provider-2.3.2.jar" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/jackson-jaxrs-json-provider-2.3.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/jackson-module-jaxb-annotations-2.3.2.jar" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/jackson-module-jaxb-annotations-2.3.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/javassist-3.18.1-GA.jar" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/javassist-3.18.1-GA.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/javax.annotation-3.1.1.jar" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/javax.annotation-3.1.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/javax.annotation-api-1.2.jar" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/javax.annotation-api-1.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/javax.ejb-3.1.1.jar" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/javax.ejb-3.1.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/javax.inject-2.2.0-b21.jar" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/javax.inject-2.2.0-b21.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/javax.persistence-2.1.0-RC1.jar" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/javax.persistence-2.1.0-RC1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/javax.transaction-3.1.1.jar" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/javax.transaction-3.1.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/javax.ws.rs-api-2.0.jar" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/javax.ws.rs-api-2.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/jersey-client-2.22.2.jar" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/jersey-client-2.22.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/jersey-common-2.22.2.jar" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/jersey-common-2.22.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/jersey-entity-filtering-2.17.jar" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/jersey-entity-filtering-2.17.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/jersey-gf-cdi-2.14.jar" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/jersey-gf-cdi-2.14.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/jersey-guava-2.22.2.jar" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/jersey-guava-2.22.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/jersey-media-jaxb-2.22.2.jar" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/jersey-media-jaxb-2.22.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/jersey-media-json-jackson-2.17.jar" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/jersey-media-json-jackson-2.17.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/jersey-mvc-2.4.jar" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/jersey-mvc-2.4.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/jersey-mvc-jsp-2.4.jar" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/jersey-mvc-jsp-2.4.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/jersey-server-2.22.2.jar" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/jersey-server-2.22.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/jsr311-api-1.1.1.jar" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/jsr311-api-1.1.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/osgi-resource-locator-1.0.1.jar" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/osgi-resource-locator-1.0.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/lib/validation-api-1.1.0.Final.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/server/DAOoperations/AppDishCRUDImpl.class" afterPath="$PROJECT_DIR$/target/classes/server/DAOoperations/AppDishCRUDImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/server/DAOoperations/AppDishCollectionImpl.class" afterPath="$PROJECT_DIR$/target/classes/server/DAOoperations/AppDishCollectionImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/server/DAOoperations/BasicCollectionOperations.class" afterPath="$PROJECT_DIR$/target/classes/server/DAOoperations/BasicCollectionOperations.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/server/DAOoperations/CRUDinterface.class" afterPath="$PROJECT_DIR$/target/classes/server/DAOoperations/CRUDinterface.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/server/DAOoperations/ExtendAppDishOperation.class" afterPath="$PROJECT_DIR$/target/classes/server/DAOoperations/ExtendAppDishOperation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/server/DAOoperations/Filter.class" afterPath="$PROJECT_DIR$/target/classes/server/DAOoperations/Filter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/server/DAOoperations/IngredientFilter.class" afterPath="$PROJECT_DIR$/target/classes/server/DAOoperations/IngredientFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/server/DAOoperations/NameFilter.class" afterPath="$PROJECT_DIR$/target/classes/server/DAOoperations/NameFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/server/DAOoperations/TypeFilter.class" afterPath="$PROJECT_DIR$/target/classes/server/DAOoperations/TypeFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/server/rest/CDIbinder.class" afterPath="$PROJECT_DIR$/target/classes/server/rest/CDIbinder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/server/rest/DishResources.class" afterPath="$PROJECT_DIR$/target/classes/server/rest/DishResources.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/server/rest/DishesResources.class" afterPath="$PROJECT_DIR$/target/classes/server/rest/DishesResources.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/server/rest/RestResource.class" afterPath="$PROJECT_DIR$/target/classes/server/rest/RestResource.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/shared/entity/AppDish.class" afterPath="$PROJECT_DIR$/target/classes/shared/entity/AppDish.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/shared/entity/Dish.class" afterPath="$PROJECT_DIR$/target/classes/shared/entity/Dish.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/shared/entity/Ingredients.class" afterPath="$PROJECT_DIR$/target/classes/shared/entity/Ingredients.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/shared/entity/ShortDish.class" afterPath="$PROJECT_DIR$/target/classes/shared/entity/ShortDish.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/shared/entity/Statistics.class" afterPath="$PROJECT_DIR$/target/classes/shared/entity/Statistics.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/shared/entity/TypeDishes.class" afterPath="$PROJECT_DIR$/target/classes/shared/entity/TypeDishes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/DAO/DaoOperationsTest.class" afterPath="$PROJECT_DIR$/target/test-classes/DAO/DaoOperationsTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/JPA/DaoObjectTest.class" afterPath="$PROJECT_DIR$/target/test-classes/JPA/DaoObjectTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/support/CreatorTestObjects.class" afterPath="$PROJECT_DIR$/target/test-classes/support/CreatorTestObjects.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dish.iml" afterPath="$PROJECT_DIR$/Dish.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log" afterPath="$PROJECT_DIR$/log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/server/DAOoperations/AppDishCRUDImpl.java" afterPath="$PROJECT_DIR$/src/main/java/server/DAOoperations/AppDishCRUDImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/server/DAOoperations/AppDishCollectionImpl.java" afterPath="$PROJECT_DIR$/src/main/java/server/DAOoperations/AppDishCollectionImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/server/DAOoperations/BasicCollectionOperations.java" afterPath="$PROJECT_DIR$/src/main/java/server/DAOoperations/BasicCollectionOperations.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/server/DAOoperations/CRUDinterface.java" afterPath="$PROJECT_DIR$/src/main/java/server/DAOoperations/CRUDinterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/server/DAOoperations/ExtendAppDishOperation.java" afterPath="$PROJECT_DIR$/src/main/java/server/DAOoperations/ExtendAppDishOperation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/server/DAOoperations/Filter.java" afterPath="$PROJECT_DIR$/src/main/java/server/DAOoperations/Filter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/server/DAOoperations/IngredientFilter.java" afterPath="$PROJECT_DIR$/src/main/java/server/DAOoperations/IngredientFilter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/server/DAOoperations/NameFilter.java" afterPath="$PROJECT_DIR$/src/main/java/server/DAOoperations/NameFilter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/server/DAOoperations/TypeFilter.java" afterPath="$PROJECT_DIR$/src/main/java/server/DAOoperations/TypeFilter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/server/rest/CDIbinder.java" afterPath="$PROJECT_DIR$/src/main/java/server/rest/CDIbinder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/server/rest/DIshesResources.java" afterPath="$PROJECT_DIR$/src/main/java/server/rest/DIshesResources.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/server/rest/DishResources.java" afterPath="$PROJECT_DIR$/src/main/java/server/rest/DishResources.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/server/rest/RestResource.java" afterPath="$PROJECT_DIR$/src/main/java/server/rest/RestResource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/shared/entity/AppDish.java" afterPath="$PROJECT_DIR$/src/main/java/shared/entity/AppDish.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/shared/entity/Dish.java" afterPath="$PROJECT_DIR$/src/main/java/shared/entity/Dish.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/shared/entity/Ingredients.java" afterPath="$PROJECT_DIR$/src/main/java/shared/entity/Ingredients.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/shared/entity/ShortDish.java" afterPath="$PROJECT_DIR$/src/main/java/shared/entity/ShortDish.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/shared/entity/Statistics.java" afterPath="$PROJECT_DIR$/src/main/java/shared/entity/Statistics.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/shared/entity/TypeDishes.java" afterPath="$PROJECT_DIR$/src/main/java/shared/entity/TypeDishes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/findAll.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/findAll.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/DAO/DaoOperationsTest.java" afterPath="$PROJECT_DIR$/src/test/java/DAO/DaoOperationsTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/JPA/DaoObjectTest.java" afterPath="$PROJECT_DIR$/src/test/java/JPA/DaoObjectTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/support/CreatorTestObjects.java" afterPath="$PROJECT_DIR$/src/test/java/support/CreatorTestObjects.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/src/test/resources/META-INF/persistence.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/beans.xml" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/beans.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/classes/META-INF/persistence.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/jsp/findAll.jsp" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/jsp/findAll.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/jsp/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Dish-1/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/Dish-1/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/DAO.DaoOperationsTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/DAO.DaoOperationsTest.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/JPA.DaoObjectTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/JPA.DaoObjectTest.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-DAO.DaoOperationsTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-DAO.DaoOperationsTest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-JPA.DaoObjectTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-JPA.DaoObjectTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/target/test-classes/META-INF/persistence.xml" />
     </list>
     <ignored path="Dish.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -143,23 +56,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <file leaf-file-name="ShortDish.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/shared/entity/ShortDish.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.875">
-              <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
-              <folding>
-                <marker date="1456992246000" expanded="true" signature="1080:1088" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.541666">
-              <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="54" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -168,35 +69,53 @@
       <file leaf-file-name="findAll.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/findAll.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.75">
-              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+            <state vertical-scroll-proportion="-11.875">
+              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6633858">
-              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+            <state vertical-scroll-proportion="-13.041667">
+              <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dish.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/shared/entity/Dish.java">
+      <file leaf-file-name="DishResources.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/server/rest/DishResources.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="31" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="31" />
-              <folding />
+              <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#734#735#0" expanded="true" />
+                <element signature="e#762#763#0" expanded="true" />
+                <element signature="e#790#791#0" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppDish.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/shared/entity/AppDish.java">
+      <file leaf-file-name="AppDishCRUDImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/server/DAOoperations/AppDishCRUDImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicCollectionOperations.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/server/DAOoperations/BasicCollectionOperations.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
@@ -205,41 +124,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShortDish.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/shared/entity/ShortDish.java">
+      <file leaf-file-name="CRUDinterface.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/server/DAOoperations/CRUDinterface.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Statistics.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/shared/entity/Statistics.java">
+      <file leaf-file-name="AppDishCollectionImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/server/DAOoperations/AppDishCollectionImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
-              <folding />
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TypeDishes.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/shared/entity/TypeDishes.java">
+      <file leaf-file-name="DishesResources.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/server/rest/DishesResources.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-              <folding />
+              <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ingredients.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/shared/entity/Ingredients.java">
+      <file leaf-file-name="viewDish.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/viewDish.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="23" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.6881497">
+              <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -253,8 +176,8 @@
         <option value="Enum" />
         <option value="package-info" />
         <option value="Interface" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -269,8 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/server/DAOoperations/AppDishOperaion/filter/TypeFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/server/DAOoperations/AppDishOperaion/TypeFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/DAOoperations/AppDishOperaion/Filter.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/rest/BooksResources.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/rest/DishResource.java" />
@@ -303,23 +224,25 @@
         <option value="$PROJECT_DIR$/src/main/java/server/rest/ApplicationBinder.java" />
         <option value="$PROJECT_DIR$/target/Dish-1/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/server/DAOoperations/ExtendAppDishOperation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/server/DAOoperations/CRUDinterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/DAOoperations/BasicCollectionOperations.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/rest/CDIbinder.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" />
         <option value="$PROJECT_DIR$/src/main/java/server/rest/RestResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/server/DAOoperations/AppDishCRUDImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/shared/entity/ShortDish.java" />
         <option value="$PROJECT_DIR$/src/main/java/shared/entity/Dish.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/server/rest/DishResources.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/server/rest/DIshesResources.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/findAll.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/main.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/shared/entity/ShortDish.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/DAOoperations/AppDishCollectionImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/rest/DishesResources.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/DAOoperations/AppDishCRUDImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/DAOoperations/CRUDinterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/rest/DishResources.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/findAll.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/viewDish.jsp" />
       </list>
     </option>
   </component>
@@ -385,6 +308,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Dish" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dish" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dish" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -480,7 +417,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jsp" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -502,11 +439,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dish" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dish" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -626,22 +585,22 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/target/Dish-1.war" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
-      <recent name="$PROJECT_DIR$/src/main/java/server/rest/jspImpl" />
-      <recent name="$PROJECT_DIR$/src/main/webapp" />
-      <recent name="$PROJECT_DIR$/src/test/resources/META-INF" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
       <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+      <recent name="$PROJECT_DIR$/src/main/java/server/rest/jspImpl" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
     </key>
   </component>
   <component name="RunManager" selected="Maven.Build">
@@ -1328,7 +1287,7 @@
       <workItem from="1455789896301" duration="8893000" />
       <workItem from="1456756890274" duration="45086000" />
       <workItem from="1457033483803" duration="1017000" />
-      <workItem from="1457345642177" duration="1592000" />
+      <workItem from="1457345642177" duration="16763000" />
     </task>
     <servers />
   </component>
@@ -1365,7 +1324,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125633000" />
+    <option name="totallyTimeSpent" value="140804000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1434,41 +1393,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/rest/DishResources.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/findAll.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/rest/DishResources.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/JPA/DaoObjectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1499,7 +1423,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
           <folding>
-            <marker date="1456992246000" expanded="true" signature="1080:1088" placeholder="..." />
+            <marker date="1457371442000" expanded="true" signature="1120:1128" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1638,6 +1562,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1655,6 +1580,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1662,6 +1588,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1669,43 +1596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/DAOoperations/CRUDinterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/DAOoperations/BasicCollectionOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5">
-          <caret line="4" column="109" selection-start-line="4" selection-start-column="109" selection-end-line="4" selection-end-column="109" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/rest/CDIbinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="74" selection-start-line="13" selection-start-column="74" selection-end-line="13" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/rest/RestResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -1718,62 +1608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/rest/DishResources.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/DAOoperations/AppDishCRUDImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/DAOoperations/AppDishCollectionImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/rest/DishesResources.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/shared/entity/Dish.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="31" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/shared/entity/AppDish.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/shared/entity/Ingredients.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1782,10 +1616,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/shared/entity/ShortDish.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state vertical-scroll-proportion="-21.541666">
+          <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1798,6 +1632,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5">
+          <caret line="4" column="109" selection-start-line="4" selection-start-column="109" selection-end-line="4" selection-end-column="109" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/backGr.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/centetImg.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/shared/entity/TypeDishes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1806,36 +1666,136 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/shared/entity/Dish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/shared/entity/AppDish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/rest/CDIbinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="74" selection-start-line="13" selection-start-column="74" selection-end-line="13" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/rest/RestResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.875">
-          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        <state vertical-scroll-proportion="-12.5">
+          <caret line="20" column="59" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="59" />
           <folding>
-            <marker date="1456992246000" expanded="true" signature="1080:1088" placeholder="..." />
+            <marker date="1457371442000" expanded="true" signature="1120:1128" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/shared/entity/ShortDish.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.541666">
-          <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="54" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="54" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/DAOoperations/AppDishCollectionImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/DAOoperations/BasicCollectionOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/DAOoperations/CRUDinterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/DAOoperations/AppDishCRUDImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/rest/DishResources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/rest/DishesResources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/findAll.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.75">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        <state vertical-scroll-proportion="-11.875">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6633858">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        <state vertical-scroll-proportion="-13.041667">
+          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/viewDish.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6881497">
+          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
           <folding />
         </state>
       </provider>

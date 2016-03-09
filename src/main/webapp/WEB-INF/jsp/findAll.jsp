@@ -10,16 +10,18 @@
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <HTML>
-<BODY>
-<%= new java.util.Date() %>
+<body>
+<a href="?type=ALL">Все</a> <a href="?type=FIRST">Первое</a> <a href="?type=SECOND">Второе</a> <a href="?type=DESERT">Десерт</a>
 <br>
 <p>
-    items in your cart :<br />
+    <h2>Dishes</h2><br>
+    <ul>
     <c:forEach var="item" items="${it}">
-        ${item.name}<br />
+        <li><a href="dishes/${item.id}">${item.name}</a></li>
     </c:forEach>
+    </ul>
 </p>
 <br>
-<a href="dishes/AddNew">AddNew</a>
-</BODY>
+<a href="./dishes/AddNew">AddNew</a>
+</body>
 </HTML>

@@ -35,6 +35,9 @@ public class DishesResources {
     @Inject
     private ExtendAppDishOperation appDishOperations;
 
+    @Inject
+    private DishResources dishResources;
+
     @GET
     public Viewable getType(@QueryParam("type") String type) {
         ExtendAppDishOperation extendAppDishOperation = appDishOperations;
@@ -58,7 +61,6 @@ public class DishesResources {
     @Path("/AddNew")
     @Consumes("application/json")
     public Response putAppDish(Dish dish){
-        System.out.println("IN");
         AppDish appDish = new AppDish();
         appDish.setDish(dish);
         appDish.setCreateDate(new Date());
@@ -71,6 +73,7 @@ public class DishesResources {
 
     @Path("{dishID}")
     public DishResources getDish(@PathParam("dishID") String id){
-        return new DishResources(id);
+        dishResources.setId(id);
+        return dishResources;
     }
 }

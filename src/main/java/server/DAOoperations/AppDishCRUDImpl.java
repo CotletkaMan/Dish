@@ -22,7 +22,8 @@ public class AppDishCRUDImpl implements CRUDinterface<AppDish> {
         return dish;
     }
 
-    public AppDish delete(AppDish dish){
+    public AppDish delete(Long id){
+        AppDish dish = findById(id);
         entityManager.remove(dish);
         return dish;
     }

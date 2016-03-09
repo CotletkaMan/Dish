@@ -9,6 +9,7 @@ import java.util.Map;
  */
 @XmlRootElement
 public class ShortDish {
+    private Long id;
     private String name;
     private byte[] image;
     private Map<Ingredients , Integer> ingredientsList;
@@ -16,11 +17,16 @@ public class ShortDish {
     private Integer count;
 
     public ShortDish(AppDish dish){
+        this.id = dish.getId();
         this.name = dish.getDish().getName();
         this.image = dish.getDish().getImage();
         this.ingredientsList = dish.getDish().getIngredients();
         this.timeCooking = dish.getDish().getTime();
         this.count = dish.getDish().getCount();
+    }
+
+    public Long getId(){
+        return id;
     }
 
     public String getName(){

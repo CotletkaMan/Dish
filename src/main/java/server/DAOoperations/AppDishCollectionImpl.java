@@ -27,7 +27,6 @@ public class AppDishCollectionImpl implements BasicCollectionOperations<ShortDis
         List<ShortDish> shortDishList = new LinkedList<ShortDish>();
         for(AppDish dish : appDishList)
             shortDishList.add(new ShortDish(dish));
-        System.out.println(shortDishList.size());
         return shortDishList;
 
     }
