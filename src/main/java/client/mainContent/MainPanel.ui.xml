@@ -1,0 +1,14 @@
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+             xmlns:g="urn:import:com.google.gwt.user.client.ui">
+    <ui:style>
+        .mainPage{
+            position: relative;
+            margin: auto;
+            width: 60%;
+            height: 100%;
+            background-color: burlywood;
+        }
+    </ui:style>
+    <g:ScrollPanel ui:field="content" addStyleNames="{style.mainPage}">
+    </g:ScrollPanel>
+</ui:UiBinder>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+    <replace-with class="client.mainContent.ClientFactoryImpl">
+        <when-type-is class="client.mainContent.ClientFactory"/>
+    </replace-with>
+
+    <add-linker name="xsiframe"/>
+
+    <inherits name='com.google.gwt.activity.Activity'/>
+    <inherits name='com.google.gwt.place.Place'/>
+    <set-configuration-property name="devModeRedirectEnabled" value="true"/>
+    <set-configuration-property name="devModeUrlWhitelistRegexp" value="http://127\.0\.0\.1(:\d+)?/.*" />
+</module>

@@ -23,7 +23,7 @@ public class Dish {
     private byte[] image;
 
     //Список ингридиентов
-    private Map<Ingredients , Integer> ingredients;
+    private Map<Ingredients, Integer> ingredients;
 
     //Последовательность приготовления
     private List<String> recipe;
@@ -35,7 +35,6 @@ public class Dish {
     private int count;
 
     private TypeDishes typeDishes;
-
 
     public Dish(){}
 
@@ -70,13 +69,13 @@ public class Dish {
 
     @ElementCollection
     @MapKeyEnumerated(value = EnumType.STRING)
-    @MapKeyColumn(name = "Ingredient" , nullable = true)
+    @MapKeyColumn(name = "Ingredient" , nullable = false)
     @Column(name = "Count" , nullable = false)
-    public Map<Ingredients , Integer> getIngredients(){
+    public Map<Ingredients, Integer> getIngredients(){
         return ingredients;
     }
 
-    public void setIngredients(Map<Ingredients , Integer> ingredients){
+    public void setIngredients(Map<Ingredients, Integer> ingredients){
         this.ingredients = ingredients;
     }
 

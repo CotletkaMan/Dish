@@ -22,10 +22,12 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="Dish" />
+        <module name="DishGWT" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Dish" target="1.5" />
+      <module name="Dish" target="1.7" />
+      <module name="DishGWT" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

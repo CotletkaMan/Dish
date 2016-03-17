@@ -1,51 +1,30 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="Dish:war exploded">
-    <output-path>$PROJECT_DIR$/target/Dish-1</output-path>
+    <output-path>$PROJECT_DIR$/target/DishAll-1</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="Dish" />
         </element>
         <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.fusesource.restygwt:restygwt:2.1.1" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.5.3" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:sources:2.5.3" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.5.3" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.5.3" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:sources:2.5.3" />
           <element id="library" level="project" name="Maven: org.eclipse.persistence:eclipselink:2.5.0-RC1" />
           <element id="library" level="project" name="Maven: org.eclipse.persistence:javax.persistence:2.1.0-RC1" />
           <element id="library" level="project" name="Maven: org.eclipse.persistence:commonj.sdo:2.1.1" />
-          <element id="library" level="project" name="Maven: org.glassfish:javax.ejb:3.1.1" />
-          <element id="library" level="project" name="Maven: org.glassfish:javax.transaction:3.1.1" />
-          <element id="library" level="project" name="Maven: org.glassfish:javax.annotation:3.1.1" />
           <element id="library" level="project" name="Maven: javax.ws.rs:jsr311-api:1.1.1" />
-          <element id="library" level="project" name="Maven: org.glassfish.jersey.ext:jersey-mvc-jsp:2.4" />
-          <element id="library" level="project" name="Maven: org.glassfish.hk2.external:javax.inject:2.2.0-b21" />
-          <element id="library" level="project" name="Maven: org.glassfish.jersey.ext:jersey-mvc:2.4" />
-          <element id="library" level="project" name="Maven: javax.ws.rs:javax.ws.rs-api:2.0" />
-          <element id="library" level="project" name="Maven: org.glassfish.jersey.core:jersey-common:2.22.2" />
-          <element id="library" level="project" name="Maven: javax.annotation:javax.annotation-api:1.2" />
-          <element id="library" level="project" name="Maven: org.glassfish.jersey.bundles.repackaged:jersey-guava:2.22.2" />
-          <element id="library" level="project" name="Maven: org.glassfish.hk2:hk2-api:2.4.0-b34" />
-          <element id="library" level="project" name="Maven: org.glassfish.hk2:hk2-utils:2.4.0-b34" />
-          <element id="library" level="project" name="Maven: org.glassfish.hk2.external:aopalliance-repackaged:2.4.0-b34" />
-          <element id="library" level="project" name="Maven: org.glassfish.hk2:hk2-locator:2.4.0-b34" />
-          <element id="library" level="project" name="Maven: org.javassist:javassist:3.18.1-GA" />
-          <element id="library" level="project" name="Maven: org.glassfish.hk2:osgi-resource-locator:1.0.1" />
-          <element id="library" level="project" name="Maven: org.glassfish.jersey.core:jersey-server:2.22.2" />
-          <element id="library" level="project" name="Maven: org.glassfish.jersey.core:jersey-client:2.22.2" />
-          <element id="library" level="project" name="Maven: org.glassfish.jersey.media:jersey-media-jaxb:2.22.2" />
-          <element id="library" level="project" name="Maven: javax.validation:validation-api:1.1.0.Final" />
-          <element id="library" level="project" name="Maven: org.glassfish.jersey.containers.glassfish:jersey-gf-cdi:2.14" />
-          <element id="library" level="project" name="Maven: org.glassfish.jersey.media:jersey-media-json-jackson:2.17" />
-          <element id="library" level="project" name="Maven: org.glassfish.jersey.ext:jersey-entity-filtering:2.17" />
-          <element id="library" level="project" name="Maven: com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.3.2" />
-          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.3.2" />
-          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.3.2" />
-          <element id="library" level="project" name="Maven: com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.3.2" />
-          <element id="library" level="project" name="Maven: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.3.2" />
-          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.3.2" />
+          <element id="library" level="project" name="Maven: com.google.gwt:gwt-servlet:2.7.0" />
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/target/Dish-1/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/target/DishAll-1/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="Dish/web/Web" />
+      <element id="gwt-compiler-output" facet="Dish/gwt/GWT" />
     </root>
   </artifact>
 </component>

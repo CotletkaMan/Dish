@@ -1,0 +1,9 @@
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+             xmlns:g="urn:import:com.google.gwt.user.client.ui">
+    <g:VerticalPanel>
+        <g:TextBox ui:field="name">Name</g:TextBox>
+        <g:TextBox ui:field="type">Type</g:TextBox>
+        <g:TextBox ui:field="recipe">Recipe</g:TextBox>
+        <g:Button ui:field="backButton">back</g:Button>
+    </g:VerticalPanel>
+</ui:UiBinder>

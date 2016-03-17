@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Created by cotletkaman on 05.02.16.
  */
-class NameFilter extends Filter{
+class NameFilter extends Filter {
     private String name;
     private EntityManager entityManager;
 

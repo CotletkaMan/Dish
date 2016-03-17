@@ -18,7 +18,7 @@ import java.util.List;
  */
 @Stateless
 @LocalBean
-public class AppDishCollectionImpl implements BasicCollectionOperations<ShortDish> , ExtendAppDishOperation{
+public class AppDishCollectionImpl implements BasicCollectionOperations<ShortDish>, ExtendAppDishOperation {
     @PersistenceContext(unitName = "PersistJPA")
     private EntityManager entityManager;
 

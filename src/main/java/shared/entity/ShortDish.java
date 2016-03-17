@@ -12,40 +12,57 @@ public class ShortDish {
     private Long id;
     private String name;
     private byte[] image;
-    private Map<Ingredients , Integer> ingredientsList;
     private Date timeCooking;
     private Integer count;
+
+    public ShortDish(){
+    }
 
     public ShortDish(AppDish dish){
         this.id = dish.getId();
         this.name = dish.getDish().getName();
         this.image = dish.getDish().getImage();
-        this.ingredientsList = dish.getDish().getIngredients();
         this.timeCooking = dish.getDish().getTime();
         this.count = dish.getDish().getCount();
     }
 
-    public Long getId(){
+    public Long getId() {
         return id;
     }
 
-    public String getName(){
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getName() {
         return name;
     }
 
-    public byte[] getImage(){
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public byte[] getImage() {
         return image;
     }
 
-    public Map<Ingredients , Integer> getIngredientsList(){
-        return ingredientsList;
+    public void setImage(byte[] image) {
+        this.image = image;
     }
 
-    public Date getTimeCooking(){
+    public Date getTimeCooking() {
         return timeCooking;
     }
 
-    public Integer getCount(){
+    public void setTimeCooking(Date timeCooking) {
+        this.timeCooking = timeCooking;
+    }
+
+    public Integer getCount() {
         return count;
+    }
+
+    public void setCount(Integer count) {
+        this.count = count;
     }
 }
